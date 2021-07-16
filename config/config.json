@@ -1,0 +1,23 @@
+{
+    "app": {
+        "port": 3000
+    },
+    "db": {
+        "host": "./database/database.sqlite"
+    },
+    "entrypoint": "https://telraam-api.net",
+    "sources" : [ 
+        {
+            "route": "/ldes-catalog",
+            "sourceFile": "dist/ldes-catalogSource"
+        },
+        {
+            "route": "/v3.0/segments/feed",
+            "sourceFile": "dist/segementFeedSource"
+        },
+        {
+            "route": "/v3.0/traffic-snapshot/feed",
+            "sourceFile": "dist/traffic-snapshotFeedSource"
+        }
+    ]
+}
