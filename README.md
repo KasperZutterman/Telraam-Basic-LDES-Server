@@ -27,3 +27,6 @@ npm run start
 | Sensor                                | https://telraam.net/ns/location/{segment_id}#camera{sensor_id}                      |
 | Core of the Linked Data Event Streams | https://telraam-api.net/ldes-catalog <br> https://telraam-api.net/v3.0/segments/feed <br> https://telraam-api.net/v3.0/segments/shape <br> https://telraam-api.net/v3.0/traffic-snapshots/feed <br> https://telraam-api.net/v3.0/traffic-snapshots/shape |
 | Terms                                 | https://telraam.net/ns/                                                             |
+
+## Author
+[Kasper Zutterman](https://github.com/KasperZutterman)
